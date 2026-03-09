@@ -1,0 +1,152 @@
+{
+  "project_name": "Alok Walunj - Data Analyst Portfolio",
+  "design_philosophy": {
+    "theme": "Data Architect",
+    "tone": "Professional, Analytical, Clean, Modern",
+    "core_principles": [
+      "Clarity over Clutter",
+      "Data as Art",
+      "Interaction as Feedback",
+      "Structure as Story"
+    ]
+  },
+  "typography": {
+    "font_family_heading": "Poppins, sans-serif",
+    "font_family_body": "Inter, sans-serif",
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body": "text-base md:text-lg leading-relaxed text-slate-600",
+      "small": "text-sm font-medium text-slate-500 uppercase tracking-wider"
+    }
+  },
+  "colors": {
+    "palette": {
+      "background": "#FFFFFF",
+      "foreground": "#0F172A",
+      "primary": "#0F766E",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#F1F5F9",
+      "secondary_foreground": "#0F172A",
+      "accent": "#0D9488",
+      "accent_foreground": "#FFFFFF",
+      "muted": "#F8FAFC",
+      "muted_foreground": "#64748B",
+      "border": "#E2E8F0"
+    },
+    "gradients": {
+      "hero_bg": "bg-gradient-to-br from-slate-50 to-slate-100",
+      "card_hover": "hover:bg-slate-50 transition-colors duration-300"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "grid_system": "grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8",
+    "section_spacing": "py-20 md:py-32"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-teal-700 text-white hover:bg-teal-800 rounded-full px-8 py-3 font-medium transition-all shadow-lg hover:shadow-teal-700/20",
+      "secondary": "bg-white text-slate-900 border border-slate-200 hover:bg-slate-50 rounded-full px-8 py-3 font-medium transition-all",
+      "icon": "p-3 rounded-full hover:bg-slate-100 transition-colors"
+    },
+    "cards": {
+      "project": "group relative overflow-hidden rounded-2xl border border-slate-200 bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300",
+      "glass": "backdrop-blur-xl bg-white/70 border border-white/20 shadow-sm"
+    },
+    "badges": {
+      "skill": "px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-sm font-medium border border-slate-200"
+    }
+  },
+  "sections": {
+    "hero": {
+      "style": "split_screen",
+      "left": "Introduction text with Typewriter effect",
+      "right": "Abstract Data Visualization (CSS Grid or SVG Pattern)",
+      "cta": "View Work & Contact buttons"
+    },
+    "projects": {
+      "style": "bento_grid",
+      "items": [
+        {
+          "id": "coffee-shop",
+          "title": "Coffee Shop Sales Analysis",
+          "tech": "Power BI",
+          "desc": "Sales performance dashboard with KPIs and trends.",
+          "col_span": "md:col-span-8",
+          "image_placeholder": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+        },
+        {
+          "id": "healthcare",
+          "title": "Healthcare Business Dashboard",
+          "tech": "Excel",
+          "desc": "Tracking revenue, profit, and churn rate.",
+          "col_span": "md:col-span-4",
+          "image_placeholder": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
+        },
+        {
+          "id": "orthopedic",
+          "title": "Orthopedic Clinic Dashboard",
+          "tech": "Excel",
+          "desc": "Patient volume and satisfaction tracking.",
+          "col_span": "md:col-span-4",
+          "image_placeholder": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop"
+        },
+        {
+          "id": "carebot",
+          "title": "CareBot AI",
+          "tech": "AI / Python",
+          "desc": "Healthcare AI assistant for user queries.",
+          "col_span": "md:col-span-8",
+          "image_placeholder": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop"
+        }
+      ]
+    },
+    "skills": {
+      "style": "ticker_tape",
+      "content": ["Dashboarding", "KPI Reporting", "Data Cleaning", "Trend Analysis", "Business Insights", "Power BI", "Excel", "Python", "SQL"]
+    },
+    "contact": {
+      "style": "minimal_centered",
+      "actions": ["Copy Email", "Copy Phone", "LinkedIn", "GitHub"]
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "Abstract grid pattern (CSS generated)",
+      "project_placeholders": "Unsplash tech/dashboard images",
+      "avatar": "https://avatars.githubusercontent.com/u/1201222?v=4" 
+    },
+    "icons": "Lucide React (already installed)"
+  },
+  "motion": {
+    "page_load": "fade-in-up",
+    "hover": "scale-105",
+    "scroll": "reveal-on-scroll"
+  },
+  "accessibility": {
+    "contrast": "WCAG AA Compliant (4.5:1 for normal text)",
+    "prefers_reduced_motion": "Respect system settings",
+    "focus_states": "Visible focus ring (teal-500)"
+  },
+  "instructions_to_main_agent": [
+    "Use 'Poppins' for all Headings and 'Inter' for body text.",
+    "Implement a 'Bento Grid' layout for the projects section.",
+    "Use a 'Ticker Tape' or 'Marquee' component for the skills section using 'react-fast-marquee' if available, or CSS animation.",
+    "Ensure the 'Contact' section uses 'Copy to Clipboard' functionality for email and phone.",
+    "Use the provided Unsplash URLs as placeholders for project images.",
+    "Maintain the 'Data Architect' theme: clean, precise, and professional.",
+    "Do NOT use heavy gradients. Use subtle background colors.",
+    "Ensure the navbar is sticky and has a glassmorphism effect.",
+    "Use 'lucide-react' for all icons.",
+    "Make sure the site is fully responsive (mobile-first)."
+  ],
+  "UNIVERSAL_GUIDELINES": [
+    "Don't make generic centered layouts.",
+    "Create depth through layered design elements.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Every interaction needs micro-animations.",
+    "Use 'sonner' for toasts."
+  ]
+}
