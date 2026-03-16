@@ -460,10 +460,10 @@ function App() {
 
               <div className="flex items-center gap-3 rounded-full bg-white/5 px-5 py-3">
                 <span className="text-sm font-medium text-white">
-                  609-721-8785
+                  +1 609-721-8785
                 </span>
                 <button
-                  onClick={() => copyToClipboard("609-721-8785", "Phone")}
+                  onClick={() => copyToClipboard("+1 609-721-8785", "Phone")}
                   className="inline-flex items-center gap-2 rounded-full border border-white/20 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-white/10"
                 >
                   <Copy size={14} /> Copy
