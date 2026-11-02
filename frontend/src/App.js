@@ -448,10 +448,10 @@ function App() {
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <div className="flex items-center gap-3 rounded-full bg-white/5 px-5 py-3">
                 <span className="text-sm font-medium text-white">
-                  alokwalunj8@gmail.com
+                  alokwalunj100@gmail.com
                 </span>
                 <button
-                  onClick={() => copyToClipboard("alokwalunj8@gmail.com", "Email")}
+                  onClick={() => copyToClipboard("alokwalunj100@gmail.com", "Email")}
                   className="inline-flex items-center gap-2 rounded-full border border-white/20 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-white/10"
                 >
                   <Copy size={14} /> Copy
